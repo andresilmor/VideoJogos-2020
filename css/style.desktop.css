@@ -1,0 +1,613 @@
+
+section {
+    margin-bottom: 50px;
+}
+
+#intro {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#title-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+/*      Book of Abstracts       */
+
+#book {
+    background: #BABABA !important;
+    /*#040919*/
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    /*    height: 48px; */
+
+    margin-bottom: 0px;
+}
+
+#container-book {
+    background-color: #8F8F8F;
+    width: 24.5%;
+    position: relative;
+    left: 18%;
+    /*    height: 48px; */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#container-book a {
+    color: #ffffff;
+    font-family: "IBM Plex Mono Semibold";
+    margin-left: 6%;
+}
+
+/*              */
+
+/*      Actual      */
+
+#actual {
+    background-color: #ffe30c;
+}
+
+.alert-text {
+    margin-top: 30%;
+}
+
+#container-about {
+    align-items: center;
+}
+
+.actual-text-big {
+    color: #fff;
+    font-size: 5em;
+}
+
+/*                  */
+
+/*      About       */
+
+#container-about {
+
+    padding-right: 11%;
+}
+
+#about-h2 h2 {
+    margin-bottom: -5%;
+}
+#about-effect {
+    position: relative;
+    /* bottom: -50px; */
+    /* left: 8.6%; */
+    width: 170px;
+    height: 50px;
+    margin-bottom: -5px;
+}
+/*              */
+
+/*      Topics     */
+
+#topics {
+    padding: 10px;
+    text-align: left;
+}
+
+#title-img-topics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    position: absolute;
+    right: 0px;
+    top: -73%;
+}
+
+#alphabet-img {
+    position: absolute;
+    width: 25%;
+    top: 412%;
+    left: -34.7%;
+}
+
+#topics-box {
+    position: absolute;
+    right: 0px;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+}
+
+#topic-text {
+    /* position: absolute; */
+    text-align: right;
+    /* top: 38%; */
+    /* right: -10.5%; */
+    padding-left: 40%;
+    margin-right: 0px;
+}
+
+#topic-text p {
+    margin-bottom: 0px;
+}
+
+#topic-text-words {
+    /* padding-top: 1%; */
+    text-align: right;
+    /* position: relative; */
+    /* top: 74%; */
+    /* right: -18%; */
+    font-family: "IBM Plex Mono Medium";
+    margin-right: 0px;
+}
+
+#topic-text-words p {
+    margin-bottom: 0px;
+}
+
+#topic-text-words u {
+    text-decoration-thickness: 1.2px;
+}
+
+/*              */
+
+/*      Submission     */
+
+#submissions {
+    padding-bottom: 2%;
+}
+
+#title-img-submission {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+    position: absolute;
+    left: -9.1%;
+    top: 20%;
+}
+
+#submission-box {
+    position: absolute;
+    left: 9.7%;
+    top: -299%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+}
+
+#submission-padding {
+    padding-bottom: 5%;
+}
+
+#submission-text {
+    /*   position: absolute;
+ */
+    text-align: left;
+    /*     top: 41%;
+    left: -7.4%; */
+    margin-top: 100px;
+    padding-right: 30%;
+}
+
+/*              */
+
+/*      Important Dates     */
+
+#title-img-importante-dates {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 590px;
+    position: absolute;
+    right: 0px;
+    top: 8%;
+}
+
+#important-dates-box {
+    position: absolute;
+    top: -36%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+    right: 415px;
+}
+
+#important-dates-text {
+
+    text-align: left;
+    top: 100px;
+    /* left: -7.8%; */
+    /* padding-top: 12.5%; */
+    padding-left: 30.8%;
+    padding-top: 100px;
+}
+
+#important-dates-text h3 {
+    color: #707070;
+    margin-bottom: 2.1%;
+    text-decoration: underline;
+}
+
+#important-dates-text p {
+    margin-bottom: 0.8%;
+}
+
+#important-dates-text span {
+    background-color: #ffe30c;
+}
+
+/*              */
+
+/*      Publication     */
+
+#title-img-publication {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    top: -50%;
+}
+
+#publication-box {
+    position: absolute;
+    right: 0px;
+    top: -300%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+}
+
+#publication-text {
+    /*   right: -14.8%; */
+    top: 55px;
+    padding-left: 7%;
+}
+
+#publication-bpadding {
+    line-height: 0;
+}
+
+#publication-rpadding {
+    padding-left: 2%;
+}
+
+#publication-text strong {
+    text-decoration: underline;
+}
+
+/*              */
+
+/*      Keynote Speakers     */
+
+#title-img-keynotes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 643px;
+    position: absolute;
+    right: 0px;
+    top: 190%;
+}
+
+#keynotes-box {
+    position: absolute;
+    right: 0px;
+    width: 19%;
+    top: -11%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+
+
+}
+
+#keynotes-persons {
+    padding-top: 6%;
+    padding-right: 2.9%;
+    color: #707070;
+}
+
+#keynotes-persons h5 {
+    color: #707070;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: -12px;
+}
+
+#keynotes-text {
+    text-align: right;
+}
+
+/*              */
+
+/*      Registration     */
+
+#registration-header {
+    padding-bottom: 235px;
+}
+
+#title-img-registration {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    position: absolute;
+    left: 0;
+    top: 9%;
+}
+
+#registration-box {
+    position: absolute;
+    left: 10%;
+    top: -26%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+
+}
+
+#registration-subt {
+    position: absolute;
+    text-align: left;
+    width: 55%;
+    left: -7.6%;
+    top: 80%;
+}
+
+#registration-line-space {
+    padding-bottom: -10%;
+}
+
+#registration-text {
+    width: 97.5%;
+    margin-top: -8%;
+}
+
+/*              */
+
+/*      Program     */
+
+#program {
+    background-color: #464646;
+}
+
+#program-header {
+    padding-bottom: 95px;
+}
+
+#title-img-program {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    position: absolute;
+    left: 15.5%;
+    top: 10%;
+}
+
+#program-box {
+    position: absolute;
+    left: 20%;
+    top: -64%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+
+}
+
+.program-text {
+    color: white;
+}
+
+/*              */
+
+/*      Event     */
+
+#event-header {
+    padding-bottom: 130px;
+}
+
+#title-img-event {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    position: absolute;
+    left: 40.5%;
+    top: 25%;
+}
+
+#event-box {
+    position: absolute;
+    left: 45.4%;
+    top: -47%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+}
+
+/*              */
+
+/*      Hotels     */
+
+#hotels-header {
+    padding-bottom: 130px;
+}
+
+#title-img-hotels {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    position: absolute;
+    right: 0px;
+    top: -5%;
+}
+
+#hotels-box {
+    position: absolute;
+    right: 65px;
+    top: -46.5%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+
+}
+
+#hotels-subt {
+    position: absolute;
+    text-align: center;
+    width: 55%;
+    right: 0px;
+    top: 50%;
+}
+
+/*              */
+
+/*      Committees     */
+
+#committees-header {
+    padding-bottom: 100px;
+}
+
+#title-img-committees {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 345px;
+    position: absolute;
+    left: 14%;
+    top: 0%;
+}
+
+#committees-box {
+    position: absolute;
+    left: 10.4%;
+    top: -60%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+
+}
+
+/*              */
+
+/*      Contact Us     */
+
+#contact-header {
+    padding-bottom: 80px;
+}
+
+#title-img-contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+}
+
+#contact-box {
+    position: absolute;
+    left: 29.4%;
+    top: -75%;
+    width: 175px;
+    height: 175px;
+    z-index: 0;
+}
+
+/*              */
+
+/*      Organization     */
+
+#organization-header {
+    padding-bottom: 130px;
+}
+
+#title-img-organization {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    position: absolute;
+    left: 26%;
+    top: 35%;
+}
+
+#organization-box {
+    position: absolute;
+    left: 47.4%;
+    top: -13%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+}
+
+/*              */
+
+/*      Support     */
+
+#support-header {
+    padding-bottom: 120px;
+}
+
+#title-img-support {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    position: absolute;
+    left: 64.6%;
+    top: 35%;
+}
+
+#support-box {
+    position: absolute;
+    left: 66.4%;
+    top: -13%;
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+}
+
+@media (max-width: 1055px) {
+    #topic-text {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    #title-img-submission {
+        left: 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    #title-img-importante-dates
+    {
+        height: 100px;
+        width:auto;
+
+        right: auto;
+        left: 0px;
+    }
+    #title-img-keynotes {
+
+    }
+    #important-dates-box {
+
+        left: 0px;
+    }
+    #title-img-organization {
+        right:0px;
+        left:auto;
+    }
+
+}

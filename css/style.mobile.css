@@ -1,0 +1,344 @@
+
+
+@media (max-width: 761px) {
+  
+  #intro {
+    margin-top: 20px;
+    margin-bottom: -365px;
+}
+  .section-header picture img {
+    height: 8vw !important;
+    width: auto !important;
+  }
+  #topics-box {
+    position: absolute;
+    right: 10vw;
+    top: -5vw;
+  }
+  .section-header>div>img {
+    height: 20vw !important;
+    width: auto !important;
+  }
+  #title-img-importante-dates, #title-img-keynotes {
+    height: 16vw !important;
+  }
+
+  #registration-box {
+    position: absolute;
+    left: 10%;
+    top: 0; 
+    width: 175px;
+    height: 175px;
+    z-index: -10;
+}
+}
+
+@media screen and (max-width: 410px) {
+  
+  .alert-text {
+    margin: 0;
+
+  }
+  /*      Book of Abstracts       */
+  #book {
+    height: 68px;
+  }
+  #container-book {
+    width: 49%;
+    text-align: center;
+    height: 68px;
+  }
+  #container-book a {
+    color: #ffffff;
+    font-family: "IBM Plex Mono Semibold";
+    margin-left: 0%;
+  }
+  /*              */
+  /*      About       */
+  #about-effect {
+    visibility: hidden;
+  }
+  #container-about {
+    left: 1%;
+  }
+  /*              */
+  /*      Topics       */
+  #title-img-topics {
+    left: 30%;
+    width: 40%;
+  }
+  #topics {
+    padding: 0px;
+  }
+  #alphabet-img {
+    visibility: hidden;
+  }
+  #topic-text {
+    top: 20%;
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    margin: 0px;
+  }
+  #topic-text-words {
+    text-align: left;
+    left: 0%;
+    top: 65%;
+    padding: 0px;
+    margin: 0px;
+    ;
+  }
+  /*              */
+  /*      Submission     */
+  #title-img-submission {
+    width: 70%;
+    left: 2%;
+    top: -150%;
+  }
+  #submission-padding {
+    padding-bottom: 0px;
+  }
+  #submission-text {
+    margin-top: -20px;
+    text-align: left;
+    top: 2.5%;
+    left: 6%;
+    padding-right: 5%;
+  }
+  /*              */
+  /*      Important Dates     */
+  #dates {
+    margin-top: -70px;
+    padding-bottom: 0px;
+  }
+  #title-img-importante-dates {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+  }
+  #important-dates-text {
+    /* position: absolute; */
+    /* text-align: left; */
+    top: 0px;
+    left: 0px;
+    /* padding-top: 0; */
+    padding-left: 0px;
+    /* padding-right: 3%; */
+    padding-top: 0px;
+  }
+  #important-dates-text h3 {
+    color: #707070;
+    margin-bottom: 2.1%;
+    text-decoration: underline;
+  }
+  #important-dates-text p {
+    margin-bottom: 0.8%;
+  }
+  /*              */
+  /*      Publication     */
+
+  #publication {
+    margin-top: -30px;
+  }
+
+  #title-img-publication {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 245px;
+    position: absolute;
+    right: 9.5%;
+  }
+  #publication-text {
+    padding-right: 10%;
+    left: 2%;
+    top: -10px;
+    text-align: left;
+  }
+  #publication-bpadding {
+    line-height: 0;
+  }
+  #publication-rpadding {
+    padding-left: 0%;
+  }
+  #publication-text strong {
+    text-decoration: underline;
+  }
+  /*              */
+  /*      Keynote Speakers     */
+
+  #keynotes {
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+
+  #keynotes img {
+    padding-left: 20px;
+  }
+
+  #title-img-keynotes {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+
+  }
+  #keynotes-persons {
+    padding-top: 6%;
+    padding-right: 2.9%;
+    color: #707070;
+  }
+  #keynotes-persons h5 {
+    color: #707070;
+    font-weight: normal;
+    display: inline-block;
+    margin-bottom: -12px;
+  }
+  #keynotes-text {
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 10%;
+  }
+  /*              */
+  /*      Registration     */
+  #registration-header {
+    padding-bottom: 120px;
+  }
+  #title-img-registration {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+  }
+  .early-msg p {
+    padding: 6px 25px;
+    text-align: center;
+  }
+  /*              */
+  /*      Program     */
+  #program-header {
+    padding-bottom: 55px;
+  }
+  #title-img-program {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+  }
+  /*              */
+  /*      Event     */
+  #event-header {
+    padding-bottom: 25px;
+  }
+  #title-img-event {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    position: absolute;
+    left: 15%;
+    top: -50%;
+  }
+  /*              */
+  /*      Hotels     */
+  #hotels-header {
+    padding-bottom: 100px;
+  }
+  #title-img-hotels {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    position: absolute;
+    left: 9%;
+    top: 0%;
+  }
+  #hotels-subt {
+    position: absolute;
+    text-align: center;
+    width: 55%;
+    left: 8%;
+    top: 45%;
+  }
+  /*              */
+  /*      Committees     */
+  #committees-header {
+    padding-bottom: 50px;
+    margin-top: -50px;
+  }
+
+  #title-img-committees {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    position: absolute;
+    left: 5%;
+    top: 0%;
+  }
+  .back-to-top {
+    right: 15%;
+    bottom: 2.5%;
+  }
+  /*      Contact Us     */
+  #contact-header {
+    margin-bottom: -10px;
+  }
+  #title-img-contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    position: absolute;
+    left: 5%;
+    top: -30px;
+  }
+  /*              */
+  /*      Organization     */
+
+  #supporters {
+    padding-bottom: 0;
+    margin-bottom: -40;
+  }
+
+  #support-header {
+    margin-right: 110px;
+    margin-bottom: -20px;
+  }
+
+  #support-header img {
+    top: 0;
+    width: 33%;
+    height: 60%;
+  }
+
+  img#title-img-support {
+    top: 10%;
+  }
+
+  #organization-header {
+    margin-top: -80px;
+    padding-bottom: 40px;
+  }
+
+  #title-img-organization {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    position: absolute;
+    left: 4%;
+    top: 27%;
+  }
+  /*              */
+}
